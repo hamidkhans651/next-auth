@@ -11,14 +11,25 @@
   "dependencies": {
     "@auth/drizzle-adapter": "^1.7.4",
     "@neondatabase/serverless": "^0.10.4",
+    "bcryptjs": "^2.4.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "dotenv": "^16.4.5",
     "drizzle-orm": "^0.36.4",
+    "lucide-react": "^0.465.0",
+    "mongoose": "^8.8.3",
+    "mongose": "^0.0.2-security",
     "next": "15.0.3",
     "next-auth": "^5.0.0-beta.25",
+    "npm-run-path": "^6.0.0",
+    "path-key": "^4.0.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
