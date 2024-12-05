@@ -23,21 +23,11 @@ const Page = () => {
                 </CardHeader>
                 <CardContent >
 
-                    <form action={async (formData: FormData) => {
-
-                        "use server"
-
-                        const name = formData.get("name") as string | undefined
-
-
-                    }} className='flex flex-col gap-4'>
-
-
-                        <Input type="username" placeholder="username" name='name' />
-                        <Input type="password" placeholder="password" name='pasword' />
-                        <Input type="email" placeholder="Email" name='email' />
+                    <form action="" className='flex flex-col gap-4'>
+                        <Input type="email" placeholder="Email" />
+                        <Input type="password" placeholder="password" />
                         <Button asChild>
-                            <Link href="/login">Sign-up</Link>
+                            <Link href="/login">Login</Link>
                         </Button>
                     </form>
 
@@ -50,14 +40,14 @@ const Page = () => {
                             <Mail /> Login with Google
                         </Button>
                     </form>
-                    <span>Already have an account?
-                        <Link className='mt-2' href="/login"
-                        > Login
 
+                    <span>Don't have an account?
+                        <Link className='mt-2' href="/signup"
+                        > Signup
                         </Link>
-
-
                     </span>
+
+
 
                 </CardFooter>
             </Card>
